@@ -1,0 +1,4 @@
+ip-prefix default-route
+  total permitted: 5828118       denied: 905848072
+    index 5            permit 0.0.0.0/0
+    index 10           permit 172.21.120.0/24                      ge 24  le 32
