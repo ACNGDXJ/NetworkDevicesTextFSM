@@ -1,0 +1,19 @@
+[
+{
+  "NAME": "default-route",
+  "SEQ": "5",
+  "ACTION": "permit",
+  "NETWORK": "0.0.0.0",
+  "NETMASK": "0",
+  "GE": "",
+  "LE": ""
+},
+{
+  "NAME": "default-route",
+  "SEQ": "10",
+  "ACTION": "permit",
+  "NETWORK": "172.21.120.0",
+  "NETMASK": "24",
+  "GE": "24",
+  "LE": "32"
+}]
