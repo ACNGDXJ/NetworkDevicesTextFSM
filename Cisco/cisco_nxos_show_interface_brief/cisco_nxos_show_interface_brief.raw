@@ -1,0 +1,22 @@
+--------------------------------------------------------------------------------
+Port   VRF          Status IP Address                              Speed    MTU
+--------------------------------------------------------------------------------
+mgmt0  --           up     100.127.255.250                         1000     1500
+
+--------------------------------------------------------------------------------
+Ethernet      VLAN    Type Mode   Status  Reason                   Speed     Por
+t
+Interface                                                                    Ch
+#
+--------------------------------------------------------------------------------
+Eth1/1        1       eth  trunk  down    Link not connected         auto(D) 101
+Eth1/2        1       eth  trunk  down    Link not connected         auto(D) 102
+Eth1/3        1       eth  trunk  down    Link not connected         auto(D) 103
+Eth1/4        1       eth  trunk  down    SFP not inserted           auto(D) 104
+Eth1/5        1       eth  trunk  down    Link not connected         auto(D) 105
+Eth1/6        1       eth  trunk  down    Link not connected         auto(D) 106
+Eth1/7        1       eth  trunk  down    Link not connected         auto(D) 107
+Eth1/8        1       eth  trunk  down    Link not connected         auto(D) 108
+Eth1/9        1       eth  trunk  down    SFP not inserted           auto(D) 109
+Eth1/10       1       eth  trunk  down    SFP not inserted           auto(D) 110
+Eth1/11       1       eth  trunk  down    SFP not inserted           auto(D) 111
