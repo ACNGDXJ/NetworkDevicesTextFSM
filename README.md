@@ -28,11 +28,11 @@ huawei是设备厂商，vrp是系统名称，display_interface_brief是具体查
 ##### Value OUTERRORS (\d+)
 ##### 
 ##### Start
- ##### ^Interface\s+PHY\s+Protocol\s+InUti\s+OutUti\s+inErrors\s+outErrors -> Interface
+ #####  ^Interface\s+PHY\s+Protocol\s+InUti\s+OutUti\s+inErrors\s+outErrors -> Interface
 
 
 ##### Interface
-  ##### ^\s*${INTERFACE_NAME}\s+${INTERFACE_PHYSICAL_STATE}\s+${INTERFACE_PROTOCOL_STATE}\s+${INUTI}\s+${OUTUTI}\s+${INERRORS}\s+${OUTERRORS} -> Record
+  #####  ^\s*${INTERFACE_NAME}\s+${INTERFACE_PHYSICAL_STATE}\s+${INTERFACE_PROTOCOL_STATE}\s+${INUTI}\s+${OUTUTI}\s+${INERRORS}\s+${OUTERRORS} -> Record
 
 
 #### 2.huawei_vrp_display_interface_brief.raw  //该命令的设备命令测试查询显示文档（可有多个，与yml对应，如raw1对应的是yml1）
@@ -61,49 +61,49 @@ huawei是设备厂商，vrp是系统名称，display_interface_brief是具体查
 
 ##### [
 ##### {
-  ##### "INTERFACE_NAME": "100GE1/0/8",
-  ##### "INTERFACE_PHYSICAL_STATE": "down",
-  ##### "INTERFACE_PROTOCOL_STATE": "down",
-  ##### "INUTI": "0%",
-  ##### "OUTUTI": "0%",
-  ##### "INERRORS": "0",
-  ##### "OUTERRORS": "0"
+  #####  "INTERFACE_NAME": "100GE1/0/8",
+  #####  "INTERFACE_PHYSICAL_STATE": "down",
+  #####  "INTERFACE_PROTOCOL_STATE": "down",
+  #####  "INUTI": "0%",
+  #####  "OUTUTI": "0%",
+  #####  "INERRORS": "0",
+  #####  "OUTERRORS": "0"
 ##### },
 ##### {
-  ##### "INTERFACE_NAME": "100GE1/0/9",
-  ##### "INTERFACE_PHYSICAL_STATE": "down",
-  ##### "INTERFACE_PROTOCOL_STATE": "down",
-  ##### "INUTI": "0%",
-  ##### "OUTUTI": "0%",
-  ##### "INERRORS": "0",
-  ##### "OUTERRORS": "0"
+  #####  "INTERFACE_NAME": "100GE1/0/9",
+  #####  "INTERFACE_PHYSICAL_STATE": "down",
+  #####  "INTERFACE_PROTOCOL_STATE": "down",
+  #####  "INUTI": "0%",
+  #####  "OUTUTI": "0%",
+  #####  "INERRORS": "0",
+  #####  "OUTERRORS": "0"
 ##### },
 ##### {
-  ##### "INTERFACE_NAME": "100GE1/0/10",
-  ##### "INTERFACE_PHYSICAL_STATE": "down",
-  ##### "INTERFACE_PROTOCOL_STATE": "down",
-  ##### "INUTI": "0%",
-  ##### "OUTUTI": "0%",
-  ##### "INERRORS": "0",
-  ##### "OUTERRORS": "0"
+  #####  "INTERFACE_NAME": "100GE1/0/10",
+  #####  "INTERFACE_PHYSICAL_STATE": "down",
+  #####  "INTERFACE_PROTOCOL_STATE": "down",
+  #####  "INUTI": "0%",
+  #####  "OUTUTI": "0%",
+  #####  "INERRORS": "0",
+  #####  "OUTERRORS": "0"
 ##### },
 ##### {
-  ##### "INTERFACE_NAME": "100GE1/0/11",
-  ##### "INTERFACE_PHYSICAL_STATE": "down",
-  ##### "INTERFACE_PROTOCOL_STATE": "down",
-  ##### "INUTI": "0%",
-  ##### "OUTUTI": "0%",
-  ##### "INERRORS": "0",
-  ##### "OUTERRORS": "0"
+  #####  "INTERFACE_NAME": "100GE1/0/11",
+  #####  "INTERFACE_PHYSICAL_STATE": "down",
+  #####  "INTERFACE_PROTOCOL_STATE": "down",
+  #####  "INUTI": "0%",
+  #####  "OUTUTI": "0%",
+  #####  "INERRORS": "0",
+  #####  "OUTERRORS": "0"
 ##### },
 ##### {
-  ##### "INTERFACE_NAME": "100GE1/0/12",
-  ##### "INTERFACE_PHYSICAL_STATE": "down",
-  ##### "INTERFACE_PROTOCOL_STATE": "down",
-  ##### "INUTI": "0%",
-  ##### "OUTUTI": "0%",
-  ##### "INERRORS": "0",
-  ##### "OUTERRORS": "0"
+  #####  "INTERFACE_NAME": "100GE1/0/12",
+  #####  "INTERFACE_PHYSICAL_STATE": "down",
+  #####  "INTERFACE_PROTOCOL_STATE": "down",
+  #####  "INUTI": "0%",
+  #####  "OUTUTI": "0%",
+  #####  "INERRORS": "0",
+  #####  "OUTERRORS": "0"
 ##### }]
 
 
