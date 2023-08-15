@@ -1,0 +1,12 @@
+Value Required,Filldown NAME (\S+)
+Value Required SEQ (\d+)
+Value ACTION (\S+)
+Value NETWORK ([0-9a-f:\.]+)
+Value NETMASK (\d+)
+Value GE (\d+)
+Value LE (\d+)
+
+Start
+ ^ip-prefix\s+${NAME}
+ ^\s+index\s+${SEQ}\s+${ACTION}\s+${NETWORK}/${NETMASK}(?:\s+ge\s+${GE}|)(?:\s+le\s+${LE}|)\s*$$ -> Record
+ ^\s*$$
