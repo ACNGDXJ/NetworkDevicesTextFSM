@@ -1,0 +1,152 @@
+#10.23.81.22 BJYZ-CS-NIMS-C92160-1381-22U-1# show lldp neighbors detail
+Capability codes:
+  (R) Router, (B) Bridge, (T) Telephone, (C) DOCSIS Cable Device
+  (W) WLAN Access Point, (P) Repeater, (S) Station, (O) Other
+Device ID            Local Intf      Hold-time  Capability  Port ID
+
+Chassis id: 7c1c.f18e.6121
+Port id: GE1/0/22
+Local Port id: mgmt0
+Port Description: To-BJYZ-CS-NIMS-C92160-1381-22U-mgt0
+System Name: BJYZ-MGT-AGG-H5855-1264-34U-3
+System Description: Huawei Versatile Routing Platform Software
+VRP (R) software, Version 8.180 (CE5855EI V200R005C10SPC800)
+Copyright (C) 2012-2018 Huawei Technologies Co., Ltd.
+HUAWEI CE5855-48T4S2Q-EI
+
+Time remaining: 105 seconds
+System Capabilities: B, R
+Enabled Capabilities: B, R
+Management Address: 10.23.80.2
+Management Address IPV6: not advertised
+Vlan ID: 599
+
+
+Chassis id: 3c51.0e18.9f9c
+Port id: Ethernet1/1
+Local Port id: Eth1/1
+Port Description: Ethernet1/1
+System Name: BJYZ-CS-NIMS-C92160-1382_22U
+System Description: Cisco Nexus Operating System (NX-OS) Software 7.0(3)I7(7)
+TAC support: http://www.cisco.com/tac
+Copyright (c) 2002-2019, Cisco Systems, Inc. All rights reserved.
+Time remaining: 112 seconds
+System Capabilities: B, R
+Enabled Capabilities: B, R
+Management Address: 10.23.81.23
+Management Address IPV6: 3c51.0e18.9f9c
+Vlan ID: not advertised
+
+
+Chassis id: 3c51.0e18.9f9d
+Port id: Ethernet1/2
+Local Port id: Eth1/2
+Port Description: Ethernet1/2
+System Name: BJYZ-CS-NIMS-C92160-1382_22U
+System Description: Cisco Nexus Operating System (NX-OS) Software 7.0(3)I7(7)
+TAC support: http://www.cisco.com/tac
+Copyright (c) 2002-2019, Cisco Systems, Inc. All rights reserved.
+Time remaining: 112 seconds
+System Capabilities: B, R
+Enabled Capabilities: B, R
+Management Address: 10.23.81.23
+Management Address IPV6: 3c51.0e18.9f9d
+Vlan ID: not advertised
+
+
+Chassis id: c0b8.e673.3980
+Port id: TFGigabitEthernet 0/1
+Local Port id: Eth1/3
+Port Description: To-Server
+System Name: BJYZ-CS-NIMS-R6510-1381-20U
+System Description: Ruijie Full 25G Routing Switch(S6510-48VS8CQ) By Ruijie Networks,
+Running on RGOS Software S6500_RGOS 11.0(5)B9P116 (M17465707022021)
+Time remaining: 108 seconds
+System Capabilities: P, B, R
+Enabled Capabilities: P, B, R
+Management Address: 10.23.81.24
+Management Address IPV6: not advertised
+Vlan ID: 0
+
+
+Chassis id: c0b8.e673.3980
+Port id: TFGigabitEthernet 0/2
+Local Port id: Eth1/4
+Port Description: To-Server
+System Name: BJYZ-CS-NIMS-R6510-1381-20U
+System Description: Ruijie Full 25G Routing Switch(S6510-48VS8CQ) By Ruijie Networks,
+Running on RGOS Software S6500_RGOS 11.0(5)B9P116 (M17465707022021)
+Time remaining: 114 seconds
+System Capabilities: P, B, R
+Enabled Capabilities: P, B, R
+Management Address: 10.23.81.24
+Management Address IPV6: not advertised
+Vlan ID: 0
+
+
+Chassis id: c0b8.e673.389f
+Port id: TFGigabitEthernet 0/1
+Local Port id: Eth1/5
+Port Description: TFGigabitEthernet 0/1
+System Name: BJYZ-CS-NIMS-R6510-1382-20U
+System Description: Ruijie Full 25G Routing Switch(S6510-48VS8CQ) By Ruijie Networks,
+Running on RGOS Software S6500_RGOS 11.0(5)B9P108 (M03052405172021)
+Time remaining: 105 seconds
+System Capabilities: P, B, R
+Enabled Capabilities: P, B, R
+Management Address: 10.23.81.25
+Management Address IPV6: not advertised
+Vlan ID: 0
+
+
+Chassis id: c0b8.e673.389f
+Port id: TFGigabitEthernet 0/2
+Local Port id: Eth1/6
+Port Description: TFGigabitEthernet 0/2
+System Name: BJYZ-CS-NIMS-R6510-1382-20U
+System Description: Ruijie Full 25G Routing Switch(S6510-48VS8CQ) By Ruijie Networks,
+Running on RGOS Software S6500_RGOS 11.0(5)B9P108 (M03052405172021)
+Time remaining: 114 seconds
+System Capabilities: P, B, R
+Enabled Capabilities: P, B, R
+Management Address: 10.23.81.25
+Management Address IPV6: not advertised
+Vlan ID: 0
+
+
+Chassis id: ac75.1d82.f641
+Port id: 25GE1/0/1
+Local Port id: Eth1/7
+Port Description: To-Server
+System Name: BJYZ-CS-NIMS-H6865-1381-13U
+System Description: Huawei Versatile Routing Platform Software
+VRP (R) software, Version 8.191 (CE6865EI V200R019C10SPC800)
+Copyright (C) 2012-2020 Huawei Technologies Co., Ltd.
+HUAWEI CE6865-48S8CQ-EI
+
+Time remaining: 108 seconds
+System Capabilities: B, R
+Enabled Capabilities: B, R
+Management Address: 10.222.4.157
+Management Address IPV6: not advertised
+Vlan ID: 100
+
+
+Chassis id: ac75.1d82.f641
+Port id: 25GE1/0/2
+Local Port id: Eth1/8
+Port Description: To-Server
+System Name: BJYZ-CS-NIMS-H6865-1381-13U
+System Description: Huawei Versatile Routing Platform Software
+VRP (R) software, Version 8.191 (CE6865EI V200R019C10SPC800)
+Copyright (C) 2012-2020 Huawei Technologies Co., Ltd.
+HUAWEI CE6865-48S8CQ-EI
+
+Time remaining: 108 seconds
+System Capabilities: B, R
+Enabled Capabilities: B, R
+Management Address: 10.222.4.157
+Management Address IPV6: not advertised
+Vlan ID: 100
+
+Total entries displayed: 9
