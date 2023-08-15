@@ -1,1 +1,14 @@
-nihao
+Value Required INTERFACE_NAME (\S+)
+Value INTERFACE_PHYSICAL_STATE (down|[\*\^]down|up|up\(\w+\))
+Value INTERFACE_PROTOCOL_STATE (down|[\*\^]down|up|up\(\w+\))
+Value INUTI (\d*\.?\d*%|\-\-)
+Value OUTUTI (\d*\.?\d*%|\-\-)
+Value INERRORS (\d+)
+Value OUTERRORS (\d+)
+
+Start
+ ^Interface\s+PHY\s+Protocol\s+InUti\s+OutUti\s+inErrors\s+outErrors -> Interface
+
+
+Interface
+  ^\s*${INTERFACE_NAME}\s+${INTERFACE_PHYSICAL_STATE}\s+${INTERFACE_PROTOCOL_STATE}\s+${INUTI}\s+${OUTUTI}\s+${INERRORS}\s+${OUTERRORS} -> Record
